@@ -8,6 +8,7 @@ body
 .nav_background
 {
     padding: 20px;
+    margin-bottom: 100;
 }
 label.logo
 {
@@ -48,16 +49,28 @@ a.active,a:hover
     height: 75px;
     width: 260px;
 }
+.main_background
+{
+    width: 100%;
+    height: 1400px;
+    position: absolute;
+    background: white;
+}
+.Main_background_info
+{
+    width: 100%;
+    height: 840px;
+    position: absolute;
+    background: white; 
+}
 .background
 {
     text-align: center;
     min-height: 600px;
-    width: 80%;
-    background-color: rgba(211, 211, 211, 0.863);
+    width: 100%;
+    background-color: rgba(224, 224, 224, 0.863);
     margin-top: 60px;
-    margin-left: 10%;
-    border-radius: 20px;
-    border: 1px solid black;
+    border-radius: 10px;
 }
 .gerecht_container
 {
@@ -104,20 +117,20 @@ a.active,a:hover
 {
     text-align: center;
     min-height: 700px;
-    width: 80%;
-    background-color: rgba(211, 211, 211, 0.863);
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10%;
+    background-color: rgba(235, 235, 235, 0.863);
     margin-top: 60px;
-    margin-left: 10%;
     border-radius: 20px;
-    border: 1px solid black;
 }
 .Recept_Info
 {
-    position: fixed;
+    position: absolute;
     background-color: lightgray;
-    border: 1px solid black;
+    border: 1px solid lightgray;
     border-radius: 11px;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 500px;
     height: 600px;
     width: 950px;
@@ -142,6 +155,20 @@ a.active,a:hover
     height: 300px;
     width: 400px;
     border-radius: 11px;
-    border: 3px solid black;
+}
+.Image_receptboek_size
+{
+    height: 300px;
+    width: 400px;  
+    border-radius: 6px;
+    border: 1px solid lightgray;
+}
+.Image_receptboek
+{
+    margin: 30px;
+    height: 300px;
+    width: 400px;  
+    border-radius: 6px;
+    border: 1px solid lightgray;
 }
 

@@ -26,38 +26,40 @@ $all_recepten_Hoofdgerecht = mysqli_fetch_all($result, MYSQLI_ASSOC);
     
 <?php  include('nav.php')?>
 
-<div class="background">
-    <h1>Voorgerechten</h1>
-    <div class="gerecht_container">
-    <?php foreach ($all_recepten_Voorgerecht as $recept_Voorgerecht) : ?>
-        <div class="Gerecht">
-            <div class="gerecht_image">
-                <a href="driver-detail-.php?driverId=<?php echo $driver['driverId'];?>"><img src="images/<?php echo $recept_Voorgerecht['Plaatje'];?>" alt="Image not found" class="iamge"><a>
-                <div class="gerecht_naam">
-                    <?php echo $recept_Voorgerecht['Titel'];?>
-                    <?php echo $recept_Voorgerecht['rating'];?>
+<div class="main_background">
+    <div class="background">
+        <h2>Voorgerechten</h2>
+        <div class="gerecht_container">
+        <?php foreach ($all_recepten_Voorgerecht as $recept_Voorgerecht) : ?>
+            <div class="Gerecht">
+                <div class="gerecht_image">
+                    <a href="driver-detail-.php?driverId=<?php echo $driver['driverId'];?>"><img src="images/<?php echo $recept_Voorgerecht['Plaatje'];?>" alt="Image not found" class="iamge"><a>
+                    <div class="gerecht_naam">
+                        <?php echo $recept_Voorgerecht['Titel'];?>
+                        <?php echo $recept_Voorgerecht['rating'];?>
+                    </div>
                 </div>
             </div>
+            <?php endforeach ?>
         </div>
-        <?php endforeach ?>
     </div>
+    
+    <div class="background">
+        <h2>Hoofdgerechten</h2>
+        <div class="gerecht_container">
+        <?php foreach ($all_recepten_Hoofdgerecht as $recept_Hoofdgerecht) : ?>
+            <div class="Gerecht">
+                <div class="gerecht_image">
+                    <a href="Recept.php?id=<?php echo $recept_Hoofdgerecht['id'];?>"><img src="images/<?php echo $recept_Hoofdgerecht['Plaatje'];?>" alt="Image not found" class="iamge"><a>
+                    <div class="gerecht_naam">
+                        <?php echo $recept_Hoofdgerecht['Titel'];?>
+                        <?php echo $recept_Hoofdgerecht['rating'];?>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach ?>
+        </div>
 </div>
-
-<div class="background">
-    <h1>Hoofdgerechten</h1>
-    <div class="gerecht_container">
-    <?php foreach ($all_recepten_Hoofdgerecht as $recept_Hoofdgerecht) : ?>
-        <div class="Gerecht">
-            <div class="gerecht_image">
-                <a href="Recept.php?id=<?php echo $recept_Hoofdgerecht['id'];?>"><img src="images/<?php echo $recept_Hoofdgerecht['Plaatje'];?>" alt="Image not found" class="iamge"><a>
-                <div class="gerecht_naam">
-                    <?php echo $recept_Hoofdgerecht['Titel'];?>
-                    <?php echo $recept_Hoofdgerecht['rating'];?>
-                </div>
-            </div>
-        </div>
-        <?php endforeach ?>
-    </div>
 </div>
 </body>
 </html>

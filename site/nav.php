@@ -9,7 +9,7 @@
 </head>
 <body>
 <nav class="nav_background">
-        <label><img src="Logo.png" alt="image not found" class="Logo-width"><a class="titel"></a></label>
+        <label><img src="images/Logo.png" alt="image not found" class="Logo-width"><a class="titel"></a></label>
         <ul>
             <li><a class="active" href="index.php">HOME</a></li>
             <li><a class="active" href="">Speciaal</a></li>
