@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 require 'database.php';
 
 $Id = $_GET['id'];
@@ -8,8 +8,7 @@ $sql = "SELECT * From recepten Where id = $Id";
 
 $result = mysqli_query($conn, $sql);
 
-$driver = mysqli_fetch_assoc($result);
-
+$all_recepten_Hoofdgerecht = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
 ?>
 
@@ -26,7 +25,21 @@ $driver = mysqli_fetch_assoc($result);
 
 <?php  include('nav.php')?>
 
-
+<div class="Container_info">
+    <?php foreach ($all_recepten_Hoofdgerecht as $recept_Hoofdgerecht) : ?>
+    <div class="Recept_Info">
+        <div class="Info">
+            <?php echo $recept_Hoofdgerecht['Instructie'];?>
+            <div class="Recept">
+                <Li><?php echo $recept_Hoofdgerecht['Ingredient'];?></Li>
+            </div>
+        </div>
+    </div>
+    <div class="Image_infoproduct">
+        <img src="images/<?php echo $recept_Hoofdgerecht['Plaatje'];?>" alt="Image not found" class="Image">
+    </div>
+    <?php endforeach; ?>
+</div>
 
 </body>
 </html>

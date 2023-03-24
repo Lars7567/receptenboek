@@ -100,4 +100,48 @@ a.active,a:hover
     width: 370px;
     height: 150px;
 }
+.Container_info
+{
+    text-align: center;
+    min-height: 700px;
+    width: 80%;
+    background-color: rgba(211, 211, 211, 0.863);
+    margin-top: 60px;
+    margin-left: 10%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.Recept_Info
+{
+    position: fixed;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 11px;
+    margin-top: 40px;
+    margin-left: 500px;
+    height: 600px;
+    width: 950px;
+}
+.Info
+{
+    margin: 100px;
+}
+.Recept
+{
+    margin: 100px;
+}
+.Image
+{
+    height: 300px;
+    width: 400px;
+    border-radius: 11px;  
+}
+.Image_infoproduct
+{
+    margin: 30px;
+    height: 300px;
+    width: 400px;
+    border-radius: 11px;
+    border: 3px solid black;
+}
 
