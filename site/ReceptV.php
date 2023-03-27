@@ -32,7 +32,13 @@ $all_recept_Voorgerecht = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <div class="Info">
                 <?php echo $recept_Voorgerecht['Instructie'];?>
                 <div class="Recept">
-                    <Li><?php echo $recept_Voorgerecht['Ingredient'];?></Li>
+                    <li><?php echo $recept_Voorgerecht['Ingredient'];?></li>
+                    <div class="Extra_details">
+                        <li><?php echo $recept_Voorgerecht['Moelijkheidsgraad'];?></li>
+                        <li><?php echo $recept_Voorgerecht['Menugang'];?></li>
+                        <li><?php echo $recept_Voorgerecht['rating'];?></li>
+                        <li>Bereidingstijd: <?php echo $recept_Voorgerecht['Duur'];?> min</li>
+                    </div>
                 </div>
             </div>
         </div>
