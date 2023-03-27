@@ -21,6 +21,9 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     
 <?php  include('nav.php')?>
 
+<div class="main_background">
+
+</div>
 
 </body>
 </html>

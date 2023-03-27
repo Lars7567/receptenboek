@@ -20,7 +20,37 @@ $all_recepten = mysqli_fetch_all($result, MYSQLI_ASSOC);
     
 <?php  include('nav.php')?>
 
-<div class="specials_main_background">
+<div class="Receptboek_main_background">
+    <div class="image_background_1">
+        <img src="images/image_Receptboek.png" alt="image not found" class="image_background_2">
+    </div>
+    <div class="Info_Receptboek">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisiciebitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nauisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam  repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim
+        quos, doloribus possimus facilis atque.
+
+
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut  quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam det beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam elieniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repella
+        
+        t porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam nam debitis optio aut beatae quisquam eligendi molestias veniam voluptatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque.
+        Lorem, ipsum dolor sit amet consectetur adipisicing eltatum repellat porro quam totam repudiandae enim quos, doloribus possimus facilis atque
+
+    </div>
 </div>
 </body>
 </html>
