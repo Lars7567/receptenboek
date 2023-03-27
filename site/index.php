@@ -61,5 +61,8 @@ $all_recepten_Hoofdgerecht = mysqli_fetch_all($result, MYSQLI_ASSOC);
         </div>
 </div>
 </div>
+
+<?php  include('Footer.php')?>
+
 </body>
 </html>

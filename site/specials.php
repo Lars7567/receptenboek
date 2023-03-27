@@ -82,5 +82,7 @@ $all_recepten_Meeste_ingrediente = mysqli_fetch_all($result, MYSQLI_ASSOC);
     </div>
 </div>
 
+<?php  include('Footer.php')?>
+
 </body>
 </html>
