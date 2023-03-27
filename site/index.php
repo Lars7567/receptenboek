@@ -33,7 +33,7 @@ $all_recepten_Hoofdgerecht = mysqli_fetch_all($result, MYSQLI_ASSOC);
         <?php foreach ($all_recepten_Voorgerecht as $recept_Voorgerecht) : ?>
             <div class="Gerecht">
                 <div class="gerecht_image">
-                    <a href="driver-detail-.php?driverId=<?php echo $driver['driverId'];?>"><img src="images/<?php echo $recept_Voorgerecht['Plaatje'];?>" alt="Image not found" class="iamge"><a>
+                <a href="ReceptV.php?id=<?php echo $recept_Voorgerecht['id'];?>"><img src="images/<?php echo $recept_Voorgerecht['Plaatje'];?>" alt="Image not found" class="iamge"><a>
                     <div class="gerecht_naam">
                         <?php echo $recept_Voorgerecht['Titel'];?>
                         <?php echo $recept_Voorgerecht['rating'];?>

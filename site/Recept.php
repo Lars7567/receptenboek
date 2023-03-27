@@ -40,7 +40,7 @@ $all_recepten_Hoofdgerecht = mysqli_fetch_all($result, MYSQLI_ASSOC);
             <img src="images/<?php echo $recept_Hoofdgerecht['Plaatje'];?>" alt="Image not found" class="Image">
         </div>
         <div class="Image_receptboek">
-            <img src="images/Receptboek.png" alt="Image not found" class="Image_receptboek_size">
+
         </div>
         <?php endforeach; ?>
     </div>
