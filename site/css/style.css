@@ -8,6 +8,7 @@ body
 {
     padding: 20px;
     margin-bottom: 100;
+    color: white;
 }
 label.logo
 {
@@ -39,7 +40,6 @@ nav ul li a
 }
 a.active,a:hover
 {
-    background: rgba(0, 0, 0, 0.397);
     transition: 1s;
     color: rgb(255, 255, 255);
 }
@@ -216,6 +216,15 @@ a.active,a:hover
 }
 footer
 {
-    height: 100px;
+    align-content: bottom;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 70px;
+}
+.Text_colour
+{
+    color: white;
+    position: flex;
 }
 

@@ -26,6 +26,8 @@ $all_recepten_Hoofdgerecht = mysqli_fetch_all($result, MYSQLI_ASSOC);
     
 <?php  include('nav.php')?>
 
+
+
 <div class="main_background">
     <div class="background">
         <h2>Voorgerechten</h2>

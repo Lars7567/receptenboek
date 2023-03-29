@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <footer><img src="images/Logo.png" alt="image not found">Copyright by (ITALI Recep) </footer>
+    <footer></footer>
 </body>
 </html>

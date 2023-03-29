@@ -14,6 +14,10 @@ $sql3 = "SELECT * FROM recepten  WHERE hoeveelheid_ingrediente = (SELECT MAX(hoe
 $result = mysqli_query($conn,$sql3);
 $all_recepten_Meeste_ingrediente = mysqli_fetch_all($result, MYSQLI_ASSOC);
 
+$sql4 = "SELECT * FROM recepten  WHERE Rating = (SELECT MAX(Rating) FROM recepten)";
+$result = mysqli_query($conn,$sql4);
+$all_Recepten_rating = mysqli_fetch_all($result, MYSQLI_ASSOC);
+
 ?>
 
 <!DOCTYPE html>
@@ -57,6 +61,22 @@ $all_recepten_Meeste_ingrediente = mysqli_fetch_all($result, MYSQLI_ASSOC);
                     <div class="gerecht_naam">
                         <?php echo $recept_Makkelijk['Titel'];?>
                         <?php echo $recept_Makkelijk['rating'];?>
+                    </div>
+                </div>
+            </div>
+            <?php endforeach ?>
+        </div>
+
+        <div class="background">
+        <h2>Gerechten die het best zijn getest uit ons arsortiment</h2>
+        <div class="gerecht_container">
+        <?php foreach ($all_Recepten_rating as $recept_Rating) : ?>
+            <div class="Gerecht">
+                <div class="gerecht_image">
+                <a href="ReceptV.php?id=<?php echo $recept_Rating['id'];?>"><img src="images/<?php echo $recept_Rating['Plaatje'];?>" alt="Image not found" class="iamge"><a>
+                    <div class="gerecht_naam">
+                        <?php echo $recept_Rating['Titel'];?>
+                        <?php echo $recept_Rating['rating'];?>
                     </div>
                 </div>
             </div>

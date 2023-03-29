@@ -33,6 +33,12 @@ $all_recepten_Hoofdgerecht = mysqli_fetch_all($result, MYSQLI_ASSOC);
                 <?php echo $recept_Hoofdgerecht['Instructie'];?>
                 <div class="Recept">
                     <Li><?php echo $recept_Hoofdgerecht['Ingredient'];?></Li>
+                    <div class="Extra_details">
+                        <li><?php echo $recept_Voorgerecht['Moelijkheidsgraad'];?></li>
+                        <li><?php echo $recept_Voorgerecht['Menugang'];?></li>
+                        <li><?php echo $recept_Voorgerecht['rating'];?></li>
+                        <li>Bereidingstijd: <?php echo $recept_Voorgerecht['Duur'];?> min</li>
+                    </div>
                 </div>
             </div>
         </div>
